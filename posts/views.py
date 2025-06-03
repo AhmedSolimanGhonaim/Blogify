@@ -1,4 +1,4 @@
-from rest_framework import generics , permissions
+from rest_framework import generics 
 from .permissions import IsAuthorOrReadOnly
 from .models import Post
 
